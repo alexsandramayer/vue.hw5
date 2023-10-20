@@ -1,4 +1,5 @@
 <template>
+	<TaskHw />
 	<IndexPage/>
 	<BlogPage/>
 	<BlogDetailsPage/>
@@ -8,12 +9,14 @@
 import IndexPage from './components/IndexPage.vue';
 import BlogPage from './components/BlogPage.vue';
 import BlogDetailsPage from './components/BlogDetailsPage.vue';
+import TaskHw from './components/TaskHw.vue';
 
 export default { 
 	components: {
 		IndexPage,
 		BlogPage,
-		BlogDetailsPage
+		BlogDetailsPage,
+		TaskHw
 	},
 };
 </script>
